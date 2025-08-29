@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="60dp"
+    android:background="#F5F5F5"
+    android:gravity="center_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Listar">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="🚗 Vehículos Registrados"
+        android:textColor="#333333"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lstVehiculos"
+        android:layout_width="299dp"
+        android:layout_height="511dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:padding="4dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver" />
+
+
+</LinearLayout>
